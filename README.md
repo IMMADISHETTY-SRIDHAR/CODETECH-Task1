@@ -42,5 +42,3 @@ Features:
 3 *User-friendly Interface:* Clear prompts and error messages ensure that the user can easily interact with the calculator.
 
 This simple calculator is a great starting point for basic Python programming, helping users understand functions, user input, conditional statements, and error handling.
-
-OUTPUT for above code:
