@@ -38,7 +38,9 @@ Flow of Execution:
 
 Features:
 1 *Modular Design:* The calculator uses separate functions for each operation, making the code easier to maintain and extend.
+
 2 *Input Handling:* Ensures that invalid operations (like dividing by zero) are caught and handled gracefully.
+
 3 *User-friendly Interface:* Clear prompts and error messages ensure that the user can easily interact with the calculator.
 
 This simple calculator is a great starting point for basic Python programming, helping users understand functions, user input, conditional statements, and error handling.
