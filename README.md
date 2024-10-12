@@ -13,21 +13,21 @@ The Python program is about a simple calculator that allows a user to perform ba
 
 Key Components:
 1. *Four Functions for Arithmetic Operations:*
-   - add(x, y): Returns the sum of x and y.
-   - subtract(x, y): Returns the difference between x and y.
-   - multiply(x, y): Returns the product of x and y.
-   - divide(x, y): Returns the quotient of x and y. It also checks if the denominator (y) is zero, in which case it returns an error message to avoid division by zero.
+   1 add(x, y): Returns the sum of x and y.
+   2 subtract(x, y): Returns the difference between x and y.
+   3 multiply(x, y): Returns the product of x and y.
+   4 divide(x, y): Returns the quotient of x and y. It also checks if the denominator (y) is zero, in which case it returns an error message to avoid division by zero.
 
 2. *User Input:*
-   - The user is prompted to enter two numbers (num1 and num2).
-   - The user is then asked to choose an operation: addition, subtraction, multiplication, or division by selecting 1, 2, 3, or 4.
+   1 The user is prompted to enter two numbers (num1 and num2).
+   2 The user is then asked to choose an operation: addition, subtraction, multiplication, or division by selecting 1, 2, 3, or 4.
 
 3. *Conditional Logic:*
-   - Based on the user's choice, the program performs the corresponding operation.
-   - If the user enters an invalid choice (i.e., not 1-4), the program will notify them that the input is invalid.
+   1 Based on the user's choice, the program performs the corresponding operation.
+   2 If the user enters an invalid choice (i.e., not 1-4), the program will notify them that the input is invalid.
 
 4. *Error Handling:*
-   - The program checks for *division by zero* when performing division, returning an appropriate error message if attempted.
+   1 The program checks for *division by zero* when performing division, returning an appropriate error message if attempted.
 
 Flow of Execution:
 1. The program starts by welcoming the user.
@@ -37,8 +37,8 @@ Flow of Execution:
 5. If division by zero is attempted, the program displays an error message.
 
 Features:
-- *Modular Design:* The calculator uses separate functions for each operation, making the code easier to maintain and extend.
-- *Input Handling:* Ensures that invalid operations (like dividing by zero) are caught and handled gracefully.
-- *User-friendly Interface:* Clear prompts and error messages ensure that the user can easily interact with the calculator.
+1 *Modular Design:* The calculator uses separate functions for each operation, making the code easier to maintain and extend.
+2 *Input Handling:* Ensures that invalid operations (like dividing by zero) are caught and handled gracefully.
+3 *User-friendly Interface:* Clear prompts and error messages ensure that the user can easily interact with the calculator.
 
 This simple calculator is a great starting point for basic Python programming, helping users understand functions, user input, conditional statements, and error handling.
